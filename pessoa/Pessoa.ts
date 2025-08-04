@@ -6,7 +6,7 @@ export class Pessoa{
         this.idade = idade;
     }
 
-    apresentar() : void {
+    public apresentar() : void {
         console.log(`Olá meu nome é ${this.nome} e eu tenho ${this.idade}\n`);
     }
 }

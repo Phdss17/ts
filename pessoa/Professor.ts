@@ -7,11 +7,11 @@ export class Professor extends Pessoa{
         this._disciplina = disciplina;
     }
 
-    set disciplina(novaDisciplina : string){
+    public set disciplina(novaDisciplina : string){
         this._disciplina = novaDisciplina;
     }
 
-    ensinar() : void {
-        console.log(`O(a) Professor(a) está ensinando ${this._disciplina}\n`);
+    public ensinar() : void {
+        console.log(`O(a) Professor(a) ${this.nome} está ensinando ${this._disciplina}\n`);
     }
 }

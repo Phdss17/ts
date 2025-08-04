@@ -7,7 +7,7 @@ export class Aluno extends Pessoa{
         this.matricula = matricula
     }
 
-    exibirMatricula() : void {
-        console.log(`O(a) aluno(a) porta a matrícula de número ${this.matricula}`);
+    public exibirMatricula() : void {
+        console.log(`O(a) aluno(a) ${this.nome} porta a matrícula de número ${this.matricula}`);
     }
 }
